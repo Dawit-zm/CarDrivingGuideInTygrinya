@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gmail.development.app.des.cardrivingguideintygrinya.Help">
+    <item android:id="@+id/action_settings" android:title="@string/action1H"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:checkable="false" />
+    <item android:id="@+id/actions_settings" android:title="@string/action2A"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_setting" android:title="@string/action3C"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

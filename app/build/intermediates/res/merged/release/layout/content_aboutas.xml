@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gmail.development.app.des.cardrivingguideintygrinya.Aboutas"
+    tools:showIn="@layout/activity_aboutas">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Programming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:layout_marginTop="2sp"
+                android:layout_marginBottom="2sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:text="        Dawit Zeru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:layout_marginTop="2sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:text="DataBase "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView5"
+                android:layout_weight="1"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp">
+
+            <TextView
+                android:text="        Seid Omer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:layout_weight="1"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:layout_marginTop="2sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp">
+
+            <TextView
+                android:text="Contact us"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7"
+                android:layout_weight="1"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="2sp"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="223dp">
+
+            <TextView
+                android:text="        des.app.development@gmail.cm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:textStyle="bold|italic"
+                android:typeface="serif"
+                android:elevation="0dp"
+                android:layout_marginTop="2sp" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:text="Other Members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:layout_weight="1"
+            android:layout_marginTop="2sp"
+            android:layout_marginBottom="2sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:textSize="24sp"
+            android:elevation="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="142dp">
+
+        <TextView
+            android:text="         Emnet Berhane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginTop="2sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="165dp">
+
+        <TextView
+            android:text="         Alamin Abdu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            android:layout_marginTop="2sp" />
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

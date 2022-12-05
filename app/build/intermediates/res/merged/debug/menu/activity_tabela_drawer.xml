@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_manages"  android:textStyle="bold"
+            android:typeface="serif" android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/title_home" />
+        <item android:id="@+id/nav_camara"  android:textStyle="bold"
+            android:typeface="serif" android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/title_SHORT" />
+        <item android:id="@+id/nav_gallery"  android:textStyle="bold"
+            android:typeface="serif" android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/title_MARATAN"  />
+        <item android:id="@+id/nav_slideshow"  android:textStyle="bold"
+            android:typeface="serif" android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/title_MID"  />
+        <item android:id="@+id/nav_manage"  android:textStyle="bold"
+            android:typeface="serif" android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/title_FINAL"  />
+
+    </group>
+
+</menu>
